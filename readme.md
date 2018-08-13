@@ -10,3 +10,4 @@ This code does:
 5) calculates mutual information using the formula entropy mergeddata + entropy input - [entropy (x)+entropy(y)]
 6) Note: this processes files with the name "Date_StrainName_LineNumber_PassageNumber_Condition_x_x_x"; 
 
+change
