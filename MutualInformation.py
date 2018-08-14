@@ -23,7 +23,7 @@ from matplotlib.patches import Rectangle
 #Use FindFewestRowsLowestandHighestGFP.R to find lower and upper limits for GFP values
 lowerlimit=0
 upperlimit=5.5
-#Number of bins should be at least ~0.5% of the number of data points. Example: at least 1000 bins for 20,000 cells
+#Number of bins should be at least ~0.05% of the number of data points. Example: at least 1000 bins for 20,000 cells
 numberofbins="1000"
 path = "" #insert path name here
 
