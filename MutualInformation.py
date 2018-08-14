@@ -177,7 +177,7 @@ for filename in mylistdir(path):
 	condition = None
 	time = None
 	rest = None
-  path1name = None
+  	path1name = None
 	path1 = None
 	path2name = None
 	path2 = None
@@ -289,7 +289,8 @@ for filename in mylistdir(path):
 		# print ()
 		#conditionname = condition.replace("No", "")
 		
-    outfile.write(os.path.basename(path1) + ',' + path2 + ',' + mutual_information_GFP +  ',' + date + ',' + strain + ',' + line + ',' + passage +',' + time + ',\n') #add mutual_information_BFP if necessary
+		#add mutual_information_BFP to the output if necessary
+    		outfile.write(os.path.basename(path1) + ',' + path2 + ',' + mutual_information_GFP +  ',' + date + ',' + strain + ',' + line + ',' + passage +',' + time + ',\n') 
 		plt.close('all')
 
 outfile.close()
