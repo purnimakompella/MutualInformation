@@ -1,7 +1,7 @@
-Mutual Information Project
+Change in Mutual Information Calculator
 ===
 Author: Purnima S. Kompella
-
+Input: FCS files
 This code does: 
 1) discretizes continuous data by binning using linspace
 2) adds a column of 0's and 1's to uninduced and induced, respectively; this allows calculation of the entropy of the input, "input"
