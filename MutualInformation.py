@@ -8,11 +8,11 @@
 
 import numpy as np
 import matplotlib
-#import matplotlib.pyplot as plt #can't import this when running on terminal (machine without display)
 import csv
 import glob
 import os
 import datetime #to save outfile with today's date
+import sys
 
 matplotlib.use('Agg') #calling this to fix an error with opening on machines without display
 
@@ -25,7 +25,7 @@ lowerlimit=0
 upperlimit=5.5
 #Number of bins should be at least ~0.05% of the number of data points. Example: at least 1000 bins for 20,000 cells
 numberofbins="1000"
-path = "" #insert path name here
+path = sys.argv[1]
 
 now = datetime.datetime.now()
 todaysdate = now.strftime("%Y%m%d") #get's today's date in the format yyyymmdd
