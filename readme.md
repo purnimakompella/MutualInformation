@@ -1,6 +1,12 @@
 Change in Mutual Information Calculator
 ===
-Author: Purnima S. Kompella
+Author: Purnima S. Kompella purnima.kompella@mail.utoronto.ca
+
+To install in unix based systems:
+
+```
+git clone https://github.com/purnimakompella/MutualInformation.git
+```
 
 Step 1: Convert fcs files to csv
 1) In FCStolog10CSV_Fortessa.R, insert path name of folder containing fcs files in line 11: parent.dir <- ""
@@ -26,8 +32,4 @@ This code does the following:
 5) calculates mutual information using the formula entropy mergeddata + entropy input - [entropy (x)+entropy(y)]
 6) Note: this processes files with the name "Date_StrainName_LineNumber_PassageNumber_Condition_x_x_x"; 
 
-To install in unix based systems:
 
-```
-git clone https://github.com/purnimakompella/MutualInformation.git
-```
